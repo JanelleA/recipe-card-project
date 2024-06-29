@@ -34,3 +34,23 @@ main {
     width: 1000px;
     margin: 0 auto;
 }
+
+main .card {
+    margin-top: 20px;
+    overflow: auto;
+}
+
+main .image {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+main .recipe {
+    float: left;
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
