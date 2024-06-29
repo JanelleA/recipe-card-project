@@ -43,18 +43,18 @@ main {
     margin: 0 auto;
 }
 
-main .card {
+.card {
     margin: 25px 0;
     overflow: auto;
 }
 
-main .image {
+.image {
     float: left;
     width: 500px;
     height: 550px;
 }
 
-main .recipe {
+.recipe {
     float: left;
     padding: 20px;
     width: 500px;
@@ -76,4 +76,44 @@ main .recipe {
 #salad .image {
     background: url("../img/watermelon-salad.jpg");
     background-size: cover;
+}
+
+.recipe h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 0;
+}
+
+.time {
+    margin-bottom: 20px;
+    border: 1px solid #3b3b3b;
+    overflow: auto;
+}
+
+.time div {
+    float: left;
+    padding-left: 6px;
+    width: 33.3%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.time .cook {
+    border-left: 1px solid #3b3b3b;
+    border-right: 1px solid #3b3b3b;
+}
+
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time strong {
+    font-family: "Montserrat", sans-serif;
 }
